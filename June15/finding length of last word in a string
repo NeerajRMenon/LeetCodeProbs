@@ -1,0 +1,16 @@
+#include <string.h>
+int lengthOfLastWord(char* s) {
+    char* end=s+strlen(s)-1;
+    while(end>=s && *end==' ')
+    {
+        end--; //now end is the last charecter of the last word
+    }
+    char* i=end;
+    while(i>=s && *i!=' '){
+        i--;
+    }
+    char* start=i;
+
+    int len=end-start;
+    return len;
+}
