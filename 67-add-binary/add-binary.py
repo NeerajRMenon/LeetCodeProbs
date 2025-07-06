@@ -30,12 +30,3 @@ class Solution(object):
             bin1=bin1+'1'
 
             return bin1[::-1]
-
-
-
-"""
-        i=len(a)-1
-        while i>=0:
-            e=
-            deci=a[i]*2**e
-"""
