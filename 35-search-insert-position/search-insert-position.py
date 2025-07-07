@@ -13,6 +13,7 @@ class Solution(object):
                 x=i+1
             elif (i+1)<len(nums) and nums[len(nums)-1]<target:
                 x=len(nums)
+                
             elif (i)<len(nums) and nums[len(nums)-1]<target:
                 x=len(nums)
 
